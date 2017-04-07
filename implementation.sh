@@ -1,5 +1,6 @@
 #!/usr/bin/sh
 
-ln -s spacemacs ../.spacemacs
-ln -s bashrc ../.bashrc
-ln -s zshrc ../.zshrc
+cd ~
+ln -s dotfiles/spacemacs .spacemacs
+ln -s dotfiles/bashrc .bashrc
+ln -s dotfiles/zshrc .zshrc
