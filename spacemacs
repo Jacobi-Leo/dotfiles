@@ -313,6 +313,7 @@ you should place your code here."
   (global-company-mode)
   (setq python-shell-interpreter "python")
   (setq python-shell-completion-native-disabled-interpreters "ipython")
+  ;(add-hook 'server-switch-hook (lambda () (call-interactively 'neotree-show)))
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
