@@ -43,3 +43,6 @@ test -s ~/.alias && . ~/.alias || true
 #    . /usr/lib/python3.4/site-packages/powerline/bindings/bash/powerline.sh
 #fi
 
+alias tmux="tmux -2"
+alias ecc="emacsclient -c &"
+alias emacs="LC_CTYPE=zh_CN.UTF-8 emacs"
